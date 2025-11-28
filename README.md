@@ -1,3 +1,277 @@
+# Menu by Parent Category for CMF Cotonti Siena v.0.9.26, PHP v.8.4+, MySQL v.8.0
+
+## This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product.
+
+It works on the selected parent category and all its child categories, including articles published in them.
+
+# Menu by Parent Category (cot-menubyparentcat)
+
+**Plugin for Cotonti Siena 0.9.26+**  
+**Version:** 2.2.8  
+**License:** BSD  
+**Author:** webitproff
+
+GitHub: https://github.com/webitproff/cot-menubyparentcat
+
+---
+
+## Purpose and Tasks (detailed)
+
+`cot-menubyparentcat` is a plugin for manually constructing a menu based on the selected parent category of the **Page** module.
+
+The **cot-menubyparentcat** plugin was created specifically to give theme developers, module authors, plugin creators, and website owners using Cotonti Siena a **full‑featured, convenient, and flexible tool** for building **online documentation**, **user guides**, **knowledge bases**, or **internal product wikis**.
+
+This is exactly the case when standard auto-generated Cotonti menus (based on category structure or tags) are not suitable:
+
+- they do not allow control over item order  
+- drafts or technical pages cannot be hidden  
+- sections cannot be renamed into short and clear menu titles  
+- no way to place important pages (“Introduction”, “Installation”, “FAQ”) at the top  
+
+**cot-menubyparentcat solves all these problems at once.**
+
+### Main usage scenarios (real cases)
+
+1. **Documentation for a theme**  
+   Example: you released a premium theme for Cotonti.  
+   You need a “Documentation” section with a clear structure:  
+   Introduction → Installation → Configuration → Components → FAQ → Updates  
+   Using this plugin, you create the root category `theme-docs`, add the needed subsections and pages in the required order — and you get a perfect menu like https://adminlte.io/themes/v4/docs/
+
+2. **User guide for a plugin or module**  
+   You developed a complex plugin (store, freelance marketplace, CRM).  
+   Customers need a detailed manual.  
+   cot-menubyparentcat allows you to build a menu like:  
+   Overview → Registration → Creating a Project → Payment → Disputes → API  
+   And you can hide pages still under development.
+
+3. **Knowledge base for a SaaS product**  
+   You have an online service based on Cotonti.  
+   You need a “Help” section with:  
+   Tasks → Services → Wallet → Security → Rules  
+   Each section may have dozens of articles, but you display only key ones and hide unfinished materials.
+
+4. **Technical documentation for a framework/library**  
+   You ported Bootstrap, Tailwind, or another UI kit to Cotonti.  
+   You create documentation like the official one:  
+   https://getbootstrap.com/docs/5.3/getting-started/introduction/  
+   The plugin allows replicating such structure and behavior.
+
+### What the plugin provides specifically for documentation:
+
+| Feature | Why it is critical for documentation |
+|--------|--------------------------------------|
+| Manual ordering of items | Sections follow the logic of learning: from simple to advanced |
+| Hiding pages without deleting | You can keep drafts invisible to users |
+| Title override | Long page titles → short readable labels in the menu |
+| Category labels (separators) | Clear visual separation of major documentation blocks |
+| Direct links outside categories | Important pages like “Introduction” and “Quick Start” always stay at the top |
+| Auto‑highlight of the current item | Users always see where they are in the structure |
+| Accordion with article counters | Modern UX similar to official documentation sites |
+
+### Real example of a documentation menu structure:
+
+```
+User Guide
+├── Introduction
+├── Quick Start
+├── Registration and Profile
+├── Tasks and Projects
+│   ├── Creating a Task
+│   ├── Choosing a Contractor
+│   ├── Work Stages
+│   └── Disputes and Arbitration
+├── Services
+│   ├── Creating a Service
+│   ├── Packages and Add-ons
+│   └── Reviews
+├── Payments and Wallet
+│   ├── Top-up
+│   ├── Withdrawal
+│   └── Transaction History
+├── Security
+└── Frequently Asked Questions
+```
+
+All elements above are either category separators or manually added pages.  
+Order, visibility, and titles are fully under your control.
+
+**Key conclusion and main purpose:**
+
+This is a **specialized tool for creating professional online documentation for software or any other product**.
+
+Using **Cotonti + menubyparentcat** you can easily create documentation for your developments or products and organize its menu so users quickly find the needed instructions.
+
+**menubyparentcat** is not just “another menu,” like my plugin [Tree Cats Page Plugin for Cotonti Siena 0.9.26](https://github.com/webitproff/cot-treecatspage) — **menubyparentcat** is an evolution and an essential component of any information product.
+
+Without well‑structured documentation and author support (*plugins, modules, templates, scripts, programs, etc.*), users will have difficulties learning and using your product — free or paid.
+
+Here are **a few examples** of what you can build in terms of **your own online documentation**:
+
+- ***[GitHub Documentation](https://docs.github.com/en/get-started)***
+- ***[DataLife Engine Documentation](https://dle-news.com/extras/online/index.html)***
+- ***[OpenCart Documentation](https://docs.opencart.com/en-gb/introduction/)***
+- ***[Automatic Price List Processing Module](https://opencartsuppliers.com/en/getting-started/introduction)***
+- ***[UIkit v3 – lightweight and modular front-end framework](https://getuikit.com/docs/introduction)***
+
+The plugin **menubyparentcat** allows you to:
+
+- manually control menu structure
+- sort categories and pages in any order
+- hide individual items without deleting
+- override titles
+- add pages outside category structure
+- use categories as section headers
+
+Ideal for building:
+
+- help sections
+- user manuals
+- complex FAQ structures
+- groups of menus with fully custom structure
+
+## Compatibility and Requirements
+
+- **Cotonti:** Siena 0.9.26+
+- **PHP:** 8.1+ (recommended 8.4)
+- **MySQL:** 8.0+
+- **Page module:** required
+
+The plugin does not conflict with other menus and does not override Cotonti core functions.
+
+---
+
+## Installation
+
+1. Download the archive: https://github.com/webitproff/cot-menubyparentcat
+2. Unpack to `plugins/menubyparentcat`
+3. In admin panel: **Plugins → Installation → menubyparentcat → Install**
+4. After installation open: **Admin → Other → Menu by Parent Category**
+
+---
+
+## Configuration
+
+In the admin panel specify:
+
+```
+Parent category code
+```
+
+Examples:
+- `user-guide`
+- `help`
+- `docs`
+
+This code is taken from **Pages → Category Code**.
+
+After saving you can add menu items.
+
+---
+
+## Admin Panel: Managing Menu Items
+
+Each item has the following parameters:
+
+### Type
+
+- **Category (cat)** — menu section + automatic loading of pages inside it
+- **Page (page)** — direct link to a page
+
+### Fields:
+
+- **Category code / Page ID** — depends on selected type
+- **Sort order** — integer, smaller means higher
+- **Title override** — custom name if needed
+- **Include in menu** — allows hiding the item
+
+### Admin capabilities
+
+- edit item
+- delete item
+- change order via numeric values
+- prevent duplicates — a page is never shown twice
+
+---
+
+## Rendering the Menu on the Site
+
+In any template (e.g. `sidebar.tpl`):
+
+```
+{PHP|cot_menubyparentcat_build_tree('user-guide')}
+```
+
+If category code is set in plugin settings:
+
+```
+{PHP|cot_menubyparentcat_build_tree()}
+```
+
+Example:
+
+```html
+<div class="sidebar-menu">
+    <h5>Help</h5>
+    {PHP|cot_menubyparentcat_build_tree('user-guide')}
+</div>
+```
+
+---
+
+## Output Template
+
+The plugin uses:
+
+`menubyparentcat.tree.tpl`
+
+Features:
+
+- Bootstrap 5 menu structure
+- collapsible submenus
+- alias (SEO URL) support
+- active item highlighting
+- category rendering with subpages
+- direct-page rendering
+
+---
+
+## Features and Advantages
+
+- full manual control of menu structure
+- title overrides
+- hidden items support
+- direct links to specific pages
+- automatic loading of all pages in a category
+- duplicate prevention
+- correct URL generation
+- high performance (indexed queries)
+
+---
+
+## Development and Support
+
+- Repository: https://github.com/webitproff/cot-menubyparentcat
+- Issues: use for bugs and feature requests
+- Pull Requests: welcome
+- Plugin is distributed under the BSD license
+
+If the plugin is useful — please ⭐ the GitHub repo!
+
+---
+
+## Copyright
+
+© webitproff, 27 Nov 2025, License BSD.
+
+---
+
+### You can hire me or propose a task
+
+**send me a message on [this page](https://abuyfile.com/users/webitproff)**
+
+---
+
 # Menu by Parent Category for CMF Cotonti Siena v.0.9.26, PHP v.8.4+, MySQL v.8.0 
 ## This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product. 
 It works on the selected parent category and all its child categories, including articles published in them. Menu by Parent Category for CMF Cotonti Siena v.0.9.26, PHP v.8.4+, MySQL v.8.0
