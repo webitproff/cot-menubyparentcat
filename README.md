@@ -1,15 +1,25 @@
 # Menu by Parent Category for CMF Cotonti Siena v.0.9.26, PHP v.8.4+, MySQL v.8.0
 
+[![License](https://img.shields.io/badge/license-BSD-blue.svg)](https://github.com/webitproff/cot-menubyparentcat/blob/main/LICENSE)
+[![Version](https://img.shields.io/badge/version-2.2.8-green.svg)](https://github.com/webitproff/cot-menubyparentcat/releases)
+[![Cotonti Compatibility](https://img.shields.io/badge/Cotonti_Siena-0.9.26-orange.svg)](https://github.com/Cotonti/Cotonti)
+[![PHP](https://img.shields.io/badge/PHP-8.4-blueviolet.svg)](https://www.php.net/releases/8_4_0.php)
+[![MySQL](https://img.shields.io/badge/MySQL-8.4-blue.svg)](https://www.mysql.com/)
+
+
+<img width="454" height="592" alt="This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product" src="" />
+
+# 🇬🇧 English
 ## This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product.
 
 It works on the selected parent category and all its child categories, including articles published in them.
 
 # Menu by Parent Category (cot-menubyparentcat)
 
-**Plugin for Cotonti Siena 0.9.26+**  
+**Plugin for [CMF Cotonti Siena](https://github.com/Cotonti/Cotonti) 0.9.26+**  
 **Version:** 2.2.8  
 **License:** BSD  
-**Author:** webitproff
+**Author:** ***[webitproff](https://github.com/webitproff)***
 
 GitHub: https://github.com/webitproff/cot-menubyparentcat
 
@@ -275,17 +285,19 @@ If the plugin is useful — please ⭐ the GitHub repo!
 
 ---
 
+# 🇷🇺 Русский
+
 # Menu by Parent Category for CMF Cotonti Siena v.0.9.26, PHP v.8.4+, MySQL v.8.0 
-## This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product. 
-It works on the selected parent category and all its child categories, including articles published in them. Menu by Parent Category for CMF Cotonti Siena v.0.9.26, PHP v.8.4+, MySQL v.8.0
+## Это плагин для создания списков пунктов меню в разделе вашей онлайн-документации или базе знаний, информационного или программного продукта, который разрабатываете, поддерживаете или продаете. 
+Он работает с выбранной родительской категорией и всеми ее дочерними категориями, включая опубликованные в них статьи. Меню по родительским категориям для CMF Cotonti Siena версии 0.9.26, PHP версии 8.4+, MySQL версии 8.0
 
 # Menu by Parent Category (cot-menubyparentcat)
 
 
-**Плагин для Cotonti Siena 0.9.26+**  
+**Плагин для [CMF Cotonti Siena](https://github.com/Cotonti/Cotonti) 0.9.26+**  
 **Версия:** 2.2.8  
 **Лицензия:** BSD  
-**Автор:** webitproff
+**Автор:** ***[webitproff](https://github.com/webitproff)***
 
 GitHub: https://github.com/webitproff/cot-menubyparentcat
 
