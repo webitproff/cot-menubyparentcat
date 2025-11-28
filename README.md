@@ -110,6 +110,7 @@ Here are **a few examples** of what you can build in terms of **your own online 
 
 - ***[GitHub Documentation](https://docs.github.com/en/get-started)***
 - ***[MODX Documentation](https://docs.modx.com/)***
+- ***[AdminLTE 4 (Admin Dashboard Template/theme and Documentation)](https://adminlte.io/themes/v4/index.html)***
 - ***[Sneat Dashboard Tamplate Documentation](https://demos.themeselection.com/sneat-bootstrap-html-admin-template/documentation/index.html)***
 - ***[DataLife Engine Documentation](https://dle-news.com/extras/online/index.html)***
 - ***[OpenCart Documentation](https://docs.opencart.com/en-gb/introduction/)***
@@ -379,6 +380,9 @@ GitHub: https://github.com/webitproff/cot-menubyparentcat
 
 **menubyparentcat** — это не просто «ещё одно меню», например мой плагин [Tree Cats Page Plugin for Cotonti Siena 0.9.26](https://github.com/webitproff/cot-treecatspage) - **menubyparentcat** - это эволюция и уже неотъемлимый компонет любого информационного продукта. 
 Без хорошо организованной документации и авторской поддержки пользователей вашей разработки(`*`), например, при помощи модуля "форумов" на Cotonti CMF - человеку будет сложно ознакомиться и освоить ваш продукт, не важно платный он или нет.
+`*` - (плагин, модуль, шаблон, скрипт, программа и т.д.)
+
+___
 
 Вот **несколько примеров** того, что можно сделать, в части **организации собственной онлайн-документации**:
 
@@ -388,8 +392,10 @@ GitHub: https://github.com/webitproff/cot-menubyparentcat
 - ***[OpenCart Documentation](https://docs.opencart.com/en-gb/introduction/)***
 - ***[Модуль «Автоматическая обработка прайс-листов»](https://opencartsuppliers.com/en/getting-started/introduction)***
 - ***[UIkit v3 - lightweight and modular front-end framework](https://getuikit.com/docs/introduction)***
+- ***[AdminLTE 4 (Admin Dashboard Template/theme and Documentation)](https://adminlte.io/themes/v4/index.html)***
+- ***[Sneat Dashboard Tamplate Documentation](https://demos.themeselection.com/sneat-bootstrap-html-admin-template/documentation/index.html)***
 
-`*` - (плагин, модуль, шаблон, скрипт, программа и т.д.)
+___
 
 
 Он, **menubyparentcat** позволяет:
