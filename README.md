@@ -7,7 +7,7 @@
 [![MySQL](https://img.shields.io/badge/MySQL-8.4-blue.svg)](https://www.mysql.com/)
 
 
-<img width="454" height="592" alt="This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product" src="" />
+<img width="900" height="600" alt="This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product" src="https://raw.githubusercontent.com/webitproff/cot-menubyparentcat/refs/heads/main/Menu-by-Parent-Category-for-CMF-Cotonti-Siena-2025_0004.webp" />
 
 # 🇬🇧 English
 ## This is a plugin for creating lists of menu items in a documentation section or a knowledge base of an information or software product.
