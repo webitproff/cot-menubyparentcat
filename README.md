@@ -109,6 +109,8 @@ Without well‑structured documentation and author support (*plugins, modules, t
 Here are **a few examples** of what you can build in terms of **your own online documentation**:
 
 - ***[GitHub Documentation](https://docs.github.com/en/get-started)***
+- ***[MODX Documentation](https://docs.modx.com/)***
+- ***[Sneat Dashboard Tamplate Documentation](https://demos.themeselection.com/sneat-bootstrap-html-admin-template/documentation/index.html)***
 - ***[DataLife Engine Documentation](https://dle-news.com/extras/online/index.html)***
 - ***[OpenCart Documentation](https://docs.opencart.com/en-gb/introduction/)***
 - ***[Automatic Price List Processing Module](https://opencartsuppliers.com/en/getting-started/introduction)***
@@ -381,6 +383,7 @@ GitHub: https://github.com/webitproff/cot-menubyparentcat
 Вот **несколько примеров** того, что можно сделать, в части **организации собственной онлайн-документации**:
 
 - ***[Документация по GitHub](https://docs.github.com/ru/get-started)***
+- ***[Руководство пользователя UMI.CMS](https://help.docs.umi-cms.ru/)***
 - ***[DataLife Engine Documentation](https://dle-news.com/extras/online/index.html)***
 - ***[OpenCart Documentation](https://docs.opencart.com/en-gb/introduction/)***
 - ***[Модуль «Автоматическая обработка прайс-листов»](https://opencartsuppliers.com/en/getting-started/introduction)***
